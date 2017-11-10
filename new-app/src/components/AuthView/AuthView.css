@@ -1,0 +1,94 @@
+.root {
+  width: 100%;
+  height: 100vh;
+}
+
+.auth-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-to-green {
+  background-image: linear-gradient(
+    99deg,
+    #ff70a6,
+    #ff9770 40%,
+    #ffd670 73%,
+    #e9ff70
+  );
+}
+.orange-to-yellow {
+  background-image: linear-gradient(
+    128deg,
+    rgba(64, 61, 57, 0.1),
+    hsla(0, 0%, 100%, 0.2)
+  );
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.auth-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 496px;
+  height: 392px;
+}
+.auth-logo-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+}
+.open-sans,
+.open-sans-bold {
+  font-family: Open Sans, sans-serif;
+}
+.open-sans-bold {
+  font-weight: 700;
+}
+.auth-logo-text {
+  margin-top: 10px;
+  font-size: 100px;
+  color: #fff;
+}
+.open-sans {
+  font-weight: 400;
+}
+.auth-link-cont {
+  width: 100%;
+  height: 25%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.auth0-div {
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 70%;
+  border-radius: 3px;
+  height: 45px;
+}
+.auth0-link {
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black-bcg {
+  background-color: #403d39;
+}
